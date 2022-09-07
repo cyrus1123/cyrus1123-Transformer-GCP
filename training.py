@@ -1,6 +1,7 @@
 import time
 import numpy as np
-import os.remove('training.py')
+import os
+os.remove('training.py')
 # time.sleep(15)
 print("Eta: ")
 for i in range(2,4):
